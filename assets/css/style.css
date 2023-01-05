@@ -8,6 +8,8 @@
 /* Importing Fonts Google */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 /* ------ */
 
 /*--------------------------------------------------------------
@@ -377,6 +379,7 @@ h6,
 
 #hero p {
   color: #715c51;
+  font-weight: 600;
 }
 
 #hero .bg-top{
@@ -441,7 +444,7 @@ h6,
 
 @media (max-width: 991px) {
   #hero {
-    height: calc(100vh - 72px);
+    height: calc(100vh - 10px);
   }
 
   /* #hero .animated {
@@ -906,6 +909,14 @@ section {
   padding: 0;
 }
 
+
+/* parallax */
+
+
+
+
+/* parallax */
+
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
@@ -1066,6 +1077,10 @@ section {
 .team .member .social {
   left: 0;
   transition: left ease-in-out 0.3s;
+}
+
+.team .article-p{
+  font-family: 'Berkshire Swash', cursive;
 }
 
 /*--------------------------------------------------------------
